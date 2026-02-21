@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #2d2a96,
+    #3d3a96,
+    #5d5a96,
+    #6d6a96
+  );
+}
+
+.container {
+  background: white;
+  width: 400px;
+  min-height: 370px;
+  padding: 30px;
+  margin: 50px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+button {
+  width: 50%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+  transition: 0.3s;
+  background: linear-gradient(90deg, #2d2a96, #4d4a96, #6d6a96);
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.card {
+  margin-top: 40px;
+}
+.job-card {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card-success p {
+  margin-top: 15px;
+  font-size: 17px;
+ overflow-wrap: break-word;
+
+}
